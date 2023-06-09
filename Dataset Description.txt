@@ -1,0 +1,31 @@
+The Tox21 dataset is a widely used benchmark dataset in the field of toxicology and compound property prediction.The Tox21 data set comprises 12,060 training samples and 647 test samples that represent chemical compounds. There are 801 "dense features" that represent chemical descriptors, such as molecular weight, solubility or surface area, and 272,776 "sparse features" that represent chemical substructures. Machine learning methods can either use sparse or dense data or combine them. For each sample there are 12 binary labels that represent the outcome (active(1)/inactive(0)) of 12 different toxicological experiments. 
+
+This dataset is available with the deepChem library.
+
+The Tox21 dataset consists of 12 binary classification tasks that assess the activity of compounds against specific biological targets. Here's an overview of each task:
+
+NR-AR (Nuclear Receptor Androgen Receptor): Measures the activity of compounds on the androgen receptor.
+
+NR-AR-LBD (Nuclear Receptor Androgen Receptor Ligand Binding Domain): Assesses the ligand binding activity of compounds to the ligand binding domain of the androgen receptor.
+
+NR-AhR (Nuclear Receptor Aryl Hydrocarbon Receptor): Evaluates the activity of compounds on the aryl hydrocarbon receptor.
+
+NR-Aromatase (Nuclear Receptor Aromatase): Measures the inhibitory activity of compounds on the aromatase enzyme.
+
+NR-ER (Nuclear Receptor Estrogen Receptor): Assesses the activity of compounds on the estrogen receptor.
+
+NR-ER-LBD (Nuclear Receptor Estrogen Receptor Ligand Binding Domain): Measures the ligand binding activity of compounds to the ligand binding domain of the estrogen receptor.
+
+NR-PPAR-gamma (Nuclear Receptor Peroxisome Proliferator-Activated Receptor Gamma): Evaluates the activity of compounds on the peroxisome proliferator-activated receptor gamma.
+
+SR-ARE (Stress Response Antioxidant Response Element): Assesses the activation of the antioxidant response element pathway by compounds.
+
+SR-ATAD5 (Stress Response Ataxia Telangiectasia Mutated Serine/Threonine Kinase Substrate): Measures the genotoxicity of compounds by evaluating their interaction with the Ataxia Telangiectasia Mutated kinase substrate.
+
+SR-HSE (Stress Response Heat Shock Response Element): Evaluates the activation of the heat shock response element pathway by compounds.
+
+SR-MMP (Stress Response Matrix Metalloproteinase): Assesses the inhibitory activity of compounds on matrix metalloproteinases.
+
+SR-p53 (Stress Response p53 Pathway): Measures the activation of the p53 pathway by compounds.
+
+For example if a compound has value 1 for NR-AR, it means that the compound is active in binding to the androgen receptor. This means that the compound has a higher likelihood of interacting with the receptor and potentially affecting the related biological pathway. However, whether this activity is considered toxic or not depends on the specific application, desired effects, and the potential consequences of modulating the androgen receptor pathway.
